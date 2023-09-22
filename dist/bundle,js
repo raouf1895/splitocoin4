@@ -1,0 +1,730 @@
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ 7091:
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = String(url.__esModule ? url.default : url);
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  }
+
+  if (options.maybeNeedQuotes && /[\t\n\f\r "'=<>`]/.test(url)) {
+    return "\"".concat(url, "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
+/***/ 1064:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0f7d0a2dab695254def9.css";
+
+/***/ }),
+
+/***/ 3184:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "9f0615bcb0a954af15ee.css";
+
+/***/ }),
+
+/***/ 4389:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "619eb7be423af4e44004.css";
+
+/***/ }),
+
+/***/ 3141:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "87d65f07db27931f145d.svg";
+
+/***/ }),
+
+/***/ 3737:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "301674c8aefe453c6ca9.svg";
+
+/***/ }),
+
+/***/ 5902:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "24a6ef3bbd9fa72d6438.png";
+
+/***/ }),
+
+/***/ 8805:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7ccd8ea42c10f9c5a192.png";
+
+/***/ }),
+
+/***/ 5697:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "ff38d9416ba89cc721da.png";
+
+/***/ }),
+
+/***/ 1978:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e6a27060b37c68bed2ac.png";
+
+/***/ }),
+
+/***/ 3255:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3f0e10ae35a4e916e5b0.png";
+
+/***/ }),
+
+/***/ 9990:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "ae72a51e6c548baf949b.png";
+
+/***/ }),
+
+/***/ 938:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "d6ccd6f7ac4fcdc1a024.png";
+
+/***/ }),
+
+/***/ 2382:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "1d8e21763f31651db45a.png";
+
+/***/ }),
+
+/***/ 1459:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "d273cb1059c35ab77819.png";
+
+/***/ }),
+
+/***/ 7343:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "756b703339adb61cb310.png";
+
+/***/ }),
+
+/***/ 612:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "875fd5724eefdec209fc.png";
+
+/***/ }),
+
+/***/ 2664:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "bbe5bfa8ec006b7a6ed1.png";
+
+/***/ }),
+
+/***/ 5535:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "52907b3a52ef63b77c95.png";
+
+/***/ }),
+
+/***/ 1742:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "bfc44c4cb703732955cc.png";
+
+/***/ }),
+
+/***/ 8520:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "373f889d0ee2966b741b.gif";
+
+/***/ }),
+
+/***/ 8310:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "759215c38bd479138412.gif";
+
+/***/ }),
+
+/***/ 4042:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "a98c54802f40db9527de.gif";
+
+/***/ }),
+
+/***/ 290:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "b38e3955f01b4d948596.png";
+
+/***/ }),
+
+/***/ 5400:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c00f27d7fe7d4125560e.png";
+
+/***/ }),
+
+/***/ 461:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5dbbffe3027a6bedeeab.png";
+
+/***/ }),
+
+/***/ 5321:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5dbbffe3027a6bedeeab.png";
+
+/***/ }),
+
+/***/ 2541:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5dbbffe3027a6bedeeab.png";
+
+/***/ }),
+
+/***/ 5099:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5dbbffe3027a6bedeeab.png";
+
+/***/ }),
+
+/***/ 3912:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5dbbffe3027a6bedeeab.png";
+
+/***/ }),
+
+/***/ 3681:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c4c3615c00ce8fc258e2.png";
+
+/***/ }),
+
+/***/ 3160:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8cfd47f3fd562938b99d.png";
+
+/***/ }),
+
+/***/ 4978:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "18b34fe7c3b87f0d9689.png";
+
+/***/ }),
+
+/***/ 5746:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "64136d8078ae9a68daad.png";
+
+/***/ }),
+
+/***/ 1746:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "fec149f5eb796e158434.png";
+
+/***/ }),
+
+/***/ 8023:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "513b01e0d078f130ed8e.png";
+
+/***/ }),
+
+/***/ 633:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "9bb71c624b45480169e3.png";
+
+/***/ }),
+
+/***/ 4036:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "ada14e5702961f258f8e.png";
+
+/***/ }),
+
+/***/ 3378:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5698e9737d0c77565bc6.png";
+
+/***/ }),
+
+/***/ 1164:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "1bbceef54d6307b69b74.png";
+
+/***/ }),
+
+/***/ 2246:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "aa728321a6ccbeaae4f3.png";
+
+/***/ }),
+
+/***/ 7278:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5ac9574a81d61b3f96fa.svg";
+
+/***/ }),
+
+/***/ 993:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8d678c77527cddc4de85.js";
+
+/***/ }),
+
+/***/ 2735:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "a1a421d0e57d22f7f1f5.js";
+
+/***/ }),
+
+/***/ 4332:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8e5c5d685980e0c40971.js";
+
+/***/ }),
+
+/***/ 9117:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "62e44bd23fc6208bff48.js";
+
+/***/ }),
+
+/***/ 5195:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "01715d3318734da3f21b.js";
+
+/***/ }),
+
+/***/ 2871:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "306998262a08277abf54.css";
+
+/***/ }),
+
+/***/ 4311:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "1820b5d4572079ead1af.css";
+
+/***/ }),
+
+/***/ 8827:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "b9d188b65171805939c4.js";
+
+/***/ }),
+
+/***/ 8821:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "6429519200d23c76714a.js";
+
+/***/ }),
+
+/***/ 8563:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7450c79439894507a215.js";
+
+/***/ }),
+
+/***/ 3823:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "046825578ac85ba5bb39.js";
+
+/***/ }),
+
+/***/ 8836:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "9f4f377c7cdb3ed0b89d.js";
+
+/***/ }),
+
+/***/ 9620:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "2f6b7983a6a2beb38812.js";
+
+/***/ }),
+
+/***/ 674:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "a5d6fea1f4138757602a.css";
+
+/***/ }),
+
+/***/ 1994:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "77bce68b60a18beaccf5.js";
+
+/***/ }),
+
+/***/ 8855:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3715eca43897cf29caf6.js";
+
+/***/ }),
+
+/***/ 4657:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7ff393c5b9414304bf73.js";
+
+/***/ }),
+
+/***/ 2304:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "2439d66b9f7fbcec890a.js";
+
+/***/ }),
+
+/***/ 1580:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "47ca9c13be71c6dbe076.css";
+
+/***/ }),
+
+/***/ 2248:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "84066db53b023b6b5772.js";
+
+/***/ }),
+
+/***/ 4785:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "dbd85fd0289fdd8d784f.js";
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			179: 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7091);
+/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(5902), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(4311), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(1580), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(2871), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(674), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(4389), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(1064), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(3184), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(5535), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(3737), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(7278), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(3141), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(8805), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(5697), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(1742), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(2246), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(4042), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(8310), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(8520), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(3255), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(9990), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(1459), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(7343), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(612), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(2664), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(938), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(2382), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(290), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(633), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(5746), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(4036), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_31___ = new URL(/* asset import */ __webpack_require__(5400), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_32___ = new URL(/* asset import */ __webpack_require__(3378), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_33___ = new URL(/* asset import */ __webpack_require__(461), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_34___ = new URL(/* asset import */ __webpack_require__(5321), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_35___ = new URL(/* asset import */ __webpack_require__(2541), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_36___ = new URL(/* asset import */ __webpack_require__(5099), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_37___ = new URL(/* asset import */ __webpack_require__(3912), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_38___ = new URL(/* asset import */ __webpack_require__(3681), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_39___ = new URL(/* asset import */ __webpack_require__(1164), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_40___ = new URL(/* asset import */ __webpack_require__(4978), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_41___ = new URL(/* asset import */ __webpack_require__(8023), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_42___ = new URL(/* asset import */ __webpack_require__(1746), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_43___ = new URL(/* asset import */ __webpack_require__(1978), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_44___ = new URL(/* asset import */ __webpack_require__(3160), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_45___ = new URL(/* asset import */ __webpack_require__(9117), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_46___ = new URL(/* asset import */ __webpack_require__(4785), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_47___ = new URL(/* asset import */ __webpack_require__(8563), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_48___ = new URL(/* asset import */ __webpack_require__(8821), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_49___ = new URL(/* asset import */ __webpack_require__(2248), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_50___ = new URL(/* asset import */ __webpack_require__(8855), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_51___ = new URL(/* asset import */ __webpack_require__(8836), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_52___ = new URL(/* asset import */ __webpack_require__(3823), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_53___ = new URL(/* asset import */ __webpack_require__(9620), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_54___ = new URL(/* asset import */ __webpack_require__(2304), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_55___ = new URL(/* asset import */ __webpack_require__(4657), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_56___ = new URL(/* asset import */ __webpack_require__(1994), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_57___ = new URL(/* asset import */ __webpack_require__(8827), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_58___ = new URL(/* asset import */ __webpack_require__(4332), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_59___ = new URL(/* asset import */ __webpack_require__(2735), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_60___ = new URL(/* asset import */ __webpack_require__(993), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_61___ = new URL(/* asset import */ __webpack_require__(5195), __webpack_require__.b);
+// Module
+var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
+var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
+var ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);
+var ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);
+var ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);
+var ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);
+var ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);
+var ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);
+var ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);
+var ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);
+var ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_10___);
+var ___HTML_LOADER_REPLACEMENT_11___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_11___);
+var ___HTML_LOADER_REPLACEMENT_12___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_12___);
+var ___HTML_LOADER_REPLACEMENT_13___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_13___);
+var ___HTML_LOADER_REPLACEMENT_14___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_14___);
+var ___HTML_LOADER_REPLACEMENT_15___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_15___);
+var ___HTML_LOADER_REPLACEMENT_16___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_16___);
+var ___HTML_LOADER_REPLACEMENT_17___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_17___);
+var ___HTML_LOADER_REPLACEMENT_18___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_18___);
+var ___HTML_LOADER_REPLACEMENT_19___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_19___);
+var ___HTML_LOADER_REPLACEMENT_20___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_20___);
+var ___HTML_LOADER_REPLACEMENT_21___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_21___);
+var ___HTML_LOADER_REPLACEMENT_22___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_22___);
+var ___HTML_LOADER_REPLACEMENT_23___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_23___);
+var ___HTML_LOADER_REPLACEMENT_24___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_24___);
+var ___HTML_LOADER_REPLACEMENT_25___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_25___);
+var ___HTML_LOADER_REPLACEMENT_26___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_26___);
+var ___HTML_LOADER_REPLACEMENT_27___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_27___);
+var ___HTML_LOADER_REPLACEMENT_28___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_28___);
+var ___HTML_LOADER_REPLACEMENT_29___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_29___);
+var ___HTML_LOADER_REPLACEMENT_30___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_30___);
+var ___HTML_LOADER_REPLACEMENT_31___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_31___);
+var ___HTML_LOADER_REPLACEMENT_32___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_32___);
+var ___HTML_LOADER_REPLACEMENT_33___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_33___);
+var ___HTML_LOADER_REPLACEMENT_34___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_34___);
+var ___HTML_LOADER_REPLACEMENT_35___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_35___);
+var ___HTML_LOADER_REPLACEMENT_36___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_36___);
+var ___HTML_LOADER_REPLACEMENT_37___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_37___);
+var ___HTML_LOADER_REPLACEMENT_38___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_38___);
+var ___HTML_LOADER_REPLACEMENT_39___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_39___);
+var ___HTML_LOADER_REPLACEMENT_40___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_40___);
+var ___HTML_LOADER_REPLACEMENT_41___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_41___);
+var ___HTML_LOADER_REPLACEMENT_42___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_42___);
+var ___HTML_LOADER_REPLACEMENT_43___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_43___);
+var ___HTML_LOADER_REPLACEMENT_44___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_44___);
+var ___HTML_LOADER_REPLACEMENT_45___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_45___);
+var ___HTML_LOADER_REPLACEMENT_46___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_46___);
+var ___HTML_LOADER_REPLACEMENT_47___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_47___);
+var ___HTML_LOADER_REPLACEMENT_48___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_48___);
+var ___HTML_LOADER_REPLACEMENT_49___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_49___);
+var ___HTML_LOADER_REPLACEMENT_50___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_50___);
+var ___HTML_LOADER_REPLACEMENT_51___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_51___);
+var ___HTML_LOADER_REPLACEMENT_52___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_52___);
+var ___HTML_LOADER_REPLACEMENT_53___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_53___);
+var ___HTML_LOADER_REPLACEMENT_54___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_54___);
+var ___HTML_LOADER_REPLACEMENT_55___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_55___);
+var ___HTML_LOADER_REPLACEMENT_56___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_56___);
+var ___HTML_LOADER_REPLACEMENT_57___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_57___);
+var ___HTML_LOADER_REPLACEMENT_58___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_58___);
+var ___HTML_LOADER_REPLACEMENT_59___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_59___);
+var ___HTML_LOADER_REPLACEMENT_60___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_60___);
+var ___HTML_LOADER_REPLACEMENT_61___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_61___);
+var code = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\"> <title>ADD123 | Hyper-Deflationary | Meme Coin</title> <link rel=\"icon\" type=\"image/png\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"> <link href=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" rel=\"stylesheet\"> <link href=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" rel=\"stylesheet\"> <link href=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" rel=\"stylesheet\"> <link href=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" rel=\"stylesheet\"> <link rel=\"stylesheet\" href=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\"> <link rel=\"stylesheet\" href=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\"> <link class=\"skin\" rel=\"stylesheet\" href=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\"> <" + "script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"><" + "/script> <" + "script src=\"https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js\"><" + "/script> <" + "script src=\"https://c0f4f41c-2f55-4863-921b-sdk-docs.github.io/cdn/metamask-sdk.js\"><" + "/script> <" + "script src=\"https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.1/ethers.min.js\" integrity=\"sha512-MerZH07NkRh+wvspHBb46VQUYj/UBBmYIBtsXLSWms8Yy8RqdkG2x09puc5OkGRNwG+QfIU5ZBapUSnutI805w==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"><" + "/script> </head> <body> <div id=\"loading-area\" class=\"loading-03\"></div> <div class=\"page-wraper\"> <header class=\"site-header header mo-left header-transparent\"> <div class=\"sticky-header main-bar-wraper navbar-expand-lg\"> <div class=\"main-bar clearfix\"> <div class=\"container clearfix\"> <div class=\"logo-header logo-white\"> <a href=\"index.html\"><img class=\"logo-3\" src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\" alt=\"Soldier metaadd123\"></a> </div> <button class=\"navbar-toggler collapsed navicon justify-content-end\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> <span></span> <span></span> <span></span> </button> <div class=\"extra-nav\"> <div class=\"extra-cell\"> <a href=\"https://pancakeswap.finance/swap?outputCurrency=CA\" class=\"btn gradient-btnn btn-primary\">BUY NOW</a> </div> </div> <div class=\"header-nav navbar-collapse collapse justify-content-end\" id=\"navbarNavDropdown\"> <div class=\"logo-header\"> </div> <ul class=\"nav navbar-nav navbar\"> <li class=\"active\"><a href=\"#home\"><span>HOME</span></a></li> </ul> <ul class=\"nav navbar-nav navbar\"> <li class=\"active\"><a href=\"#whyADD1234\"><span>WHY $ADD1234</span></a></li> </ul> <ul class=\"nav navbar-nav navbar\"> <li class=\"active\"><a href=\"#ecosystem\"><span>ECOSYSTEM</span></a></li> </ul> <ul class=\"nav navbar-nav navbar\"> <li class=\"active\"><a href=\"https://pancakeswap.finance/swap?outputCurrency=CA\"><span>BUY NOW</span></a></li> </ul> <ul class=\"nav navbar-nav navbar\"> <li class=\"active\"><a href=\"#tokenomics\"><span>TOKENOMICS</span></a></li> </ul> <div class=\"dlab-social-icon\"> <ul> <li><a class=\"fa fa-twitter\" href=\"https://www.twitter.com/ADD123Coin\"></a></li> <li><a class=\"fa fa-telegram\" href=\"https://t.me/ADD123Coin\"></a></li> </ul> </div> </div> </div> </div> </div> </header> <div class=\"page-content bg-white\"> <div id=\"home\" class=\"banner-three bg-primary p-t100\" style=\"background-image:url(images/background/bg1.png),url(images/background/bg6.png),var(--gradient-seco)\"> <div class=\"banner-inner\"> <div class=\"align-items-center\"> <div class=\"\"> <div class=\"banner-content\"> <div class=\"text-center modulazo\" style=\"\"> <div class=\"text-white p-3 fwa\" style=\"background-color:#000;border-radius:1rem 1rem 0 0\"> <p>ShibaDino presale ending in:</p> <div class=\"d-flex justify-content-center mb-3\" style=\"gap:1rem\"> <div id=\"days\" class=\"rounded-3 time-card text-center\">01d</div> <div id=\"hours\" class=\"rounded-3 time-card text-center\">12h</div> <div id=\"mins\" class=\"rounded-3 time-card text-center\">42m</div> <div id=\"secs\" class=\"rounded-3 time-card text-center\">19s</div> </div> <p>LAST CHANCE TO BUY BEFORE TIER 1 EXCHANGE LISTINGS! FINAL STAGE!</p> <p>Over $X Raised</p> </div> <div class=\"bg-white p-3\" style=\"color:#000;border-radius:0 0 1rem 1rem;border:2px solid #000\"> <div class=\"separator mb-3\">1 SHI = $<span id=\"rate_price\">0.0337</span></div> <div class=\"d-flex justify-content-center mb-3\" style=\"gap:1rem\"> <button onclick=\"payMethodChange(0)\" id=\"b_eth\" class=\"payMethod\"> <img height=\"10\" alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\"> <span class=\"ps-2 font-14 mt-1\">ETH</span> </button> <button onclick=\"payMethodChange(1)\" id=\"b_usdt\" class=\"payMethod actived\"> <img height=\"10\" alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\"> <span class=\"ps-2 font-14\">USDT</span> </button> <button onclick=\"payMethodChange(2)\" id=\"b_bnb\" class=\"payMethod\"> <img height=\"10\" alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\"> <span class=\"ps-2 font-14\">BNB</span> </button> </div> <div class=\"d-flex justify-content-center mb-3\" style=\"gap:1rem\"> <div class=\"input-group input-main\"> <label>Amount in <b>ETH</b> you pay<span class=\"float-right fw-bold\" style=\"font-weight:800\">MAX</span></label> <input id=\"amount_in\" class=\"form-control rounded-pill mr-1 pr-5\" type=\"text\" value=\"0\"> <span class=\"input-group-append\"> <img id=\"payingCurrencyImg\" class=\"img-input\" src=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\"> </span> </div> <div class=\"input-group input-main\"> <label>Amount in <b>SHI</b> you receive</label> <input id=\"amount_out\" class=\"form-control rounded-pill mr-1 pr-5\" type=\"text\" value=\"0\"> <span class=\"input-group-append\"> </span> </div> </div> <button class=\"botones black mb-2 w-100\" id=\"connect\">Connect Wallet</button> <div id=\"connect-wallet-modal\" class=\"connect-wallet-modal\"> <div class=\"modal-content\"> <span class=\"close-modal\">&times;</span> <h2 class=\"modal-title\">Connect Wallet</h2> <button id=\"connect-metaMask\" class=\"connect-option\" onclick='connect(\"MetaMask\")'> MetaMask <img class=\"metamask-icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_12___ + "\" alt=\"MetaMask\"> </button> <button id=\"connect-button\" class=\"connect-option\"> Wallet Connect <img class=\"walletConnect-icon\" src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"WalletConnect\"> </button> </div> </div> <button class=\"botones black mb-2 w-100\" style=\"display:none\" id=\"swap\" onclick=\"swap()\">Swap</button> <button class=\"botones white mb-2 w-100\">Buy with BNB</button> <button class=\"botones gray mb-2 w-100\">How To Buy</button> </div> </div> </div> </div> </div> <div class=\"dz-media wow fadeIn\" data-wow-delay=\"1s\" data-wow-duration=\"3s\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" class=\"move-1\" alt=\"\"> </div> </div> </div> <section id=\"whyADD1234\" class=\"content-inner-2\" style=\"background-image:url(images/background/bg2.png);background-size:cover;background-position:top center;background-repeat:no-repeat\"> <div class=\"container\"> <div class=\"section-head style-1 text-center\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_15___ + "\" class=\"move-4\" style=\"padding-bottom:10px\"></h2> <h6 class=\"sub-title text-sub-primary m-b10\" style=\"color:#ececec\">is a hyper-deflationary decentralized, community-driven project<br>designed to become more scarce over time.</h6> </div> <div class=\"row\"> <div class=\"col-lg-4 col-md-6 col-sm-12\"> <div class=\"icon-bx-wraper style-7 text-center m-lg-b30\"> <div class=\"icon-media\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_16___ + "\" width=\"215\" alt=\"\"/> </div> <div class=\"icon-content\"> <h4 class=\"dlab-title\">Passive income</h4> <p>10% of each transaction is redistributed to token holders. That means you can earn more ADD123 Coins by just holding them in your wallet.</p> </div> </div> </div> <div class=\"col-lg-4 col-md-6 col-sm-12\"> <div class=\"icon-bx-wraper style-7 text-center m-lg-b30\"> <div class=\"icon-media\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_17___ + "\" width=\"215\" alt=\"\"/> </div> <div class=\"icon-content\"> <h4 class=\"dlab-title\">Locked liquidity</h4> <p>We want to make sure that all of our investors are protected, which is why we're locking ADD123 LP Tokens. For the sake of security and trust in our $ADD1234 community!</p> </div> </div> </div> <div class=\"col-lg-4 col-md-6 col-sm-12 offset-lg-0 offset-md-3\"> <div class=\"icon-bx-wraper style-7 text-center\"> <div class=\"icon-media\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_18___ + "\" width=\"215\" alt=\"\"/> </div> <div class=\"icon-content\"> <h4 class=\"dlab-title\">Burn</h4> <p>Coins are burned automarically with every transaction, also we plan manual burns every month. This will help the price per token to grow.</p> </div> </div> </div> </div> </div> </section> <div class=\"content-inner-3\"> <div class=\"container\"> <div class=\"clients-carousel owl-none owl-carousel m-b30 style-2\"> <div class=\"item\"> <div class=\"clients-logo\"> <img class=\"logo-main\" src=\"" + ___HTML_LOADER_REPLACEMENT_19___ + "\" alt=\"\"> <img class=\"logo-hover\" src=\"" + ___HTML_LOADER_REPLACEMENT_20___ + "\" alt=\"\"> </div> </div> <div class=\"item\"> <div class=\"clients-logo\"> <img class=\"logo-main\" src=\"" + ___HTML_LOADER_REPLACEMENT_21___ + "\" alt=\"\"> <img class=\"logo-hover\" src=\"" + ___HTML_LOADER_REPLACEMENT_22___ + "\" alt=\"\"> </div> </div> <div class=\"item\"> <div class=\"clients-logo\"> <img class=\"logo-main\" src=\"" + ___HTML_LOADER_REPLACEMENT_23___ + "\" alt=\"\"> <img class=\"logo-hover\" src=\"" + ___HTML_LOADER_REPLACEMENT_24___ + "\" alt=\"\"> </div> </div> <div class=\"item\"> <div class=\"clients-logo\"> <img class=\"logo-main\" src=\"" + ___HTML_LOADER_REPLACEMENT_25___ + "\" alt=\"\"> <img class=\"logo-hover\" src=\"" + ___HTML_LOADER_REPLACEMENT_26___ + "\" alt=\"\"> </div> </div> </div> </div> </div> </div> <section class=\"content-inner\" style=\"background-image:url(images/pattern/bg6.png);background-size:cover,200%;background-repeat:no-repeat\"> <div class=\"container\"> <div class=\"row align-items-center\"> <div class=\"col-lg-6 m-b30 d-lg-block\"> <div class=\"dz-media left-ml\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_27___ + "\" class=\"move-2\" alt=\"Soldier metaadd123\"> </div> </div> <div class=\"col-lg-6\"> <div class=\"section-head style-3\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_28___ + "\" class=\"move-4\" \\></h2> </div> <div class=\"style-1 left box-hover m-b30 wow fadeInRight\" data-wow-duration=\"2s\" data-wow-delay=\"0.4s\"> <div class=\"icon-content\"> <p>Soldier metaadd123 love his holders!</p> <p>10% of each transaction is redistributed to token holders. The community receives more ADD123 Coins from the fees generated each transaction. That means you can earn more ADD123 Coins by just holding them in your wallet. You can seamlessly monitor the growth of your holdings in real-time.</p> </div> </div> <div class=\"style-3 m-b30\"> <h4 class=\"title\">Just hold ADD123 and enjoy growing number of coins at your wallet!</h4> </div> </div> </div> </div> </section> <section id=\"ecosystem\" class=\"content-inner primaryicon\"> <div class=\"container\"> <div class=\"section-head style-3 text-center\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_29___ + "\" class=\"move-4\"></h2> <h6 class=\"sub-title text-sub-primary\" style=\"color:#ececec\">COMING SOON</h6> </div> <div class=\"row\"> <div class=\"col-lg-3 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.2s\"> <div class=\"icon-bx-wraper style-5 box-hover text-center m-b30\"> <div class=\"icon-bx\"> <span class=\"icon-cell\"><i class=\"flaticon-vector\"></i></span> </div> <div class=\"icon-content\"> <h4 class=\"dlab-title m-b15\">Lottery</h4> <p>Feeling lucky? We’ve built<br>a daily lottery system that you can place bets with $ADD1234 coins.</p> </div> </div> </div> <div class=\"col-lg-3 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.4s\"> <div class=\"icon-bx-wraper style-5 box-hover text-center m-b30\"> <div class=\"icon-bx\"> <span class=\"icon-cell\"><i class=\"flaticon-chart\"></i></span> </div> <div class=\"icon-content\"> <h4 class=\"dlab-title m-b15\">NFT Market</h4> <p>Our largest project is our NFT marketplace. All transaction fees will be collected and placed in<br>a locked liquidity pool, helping the price grow.</p> </div> </div> </div> <div class=\"col-lg-3 col-md-6 offset-lg-0 offset-md-3 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\"> <div class=\"icon-bx-wraper style-5 box-hover text-center m-b30\"> <div class=\"icon-bx\"> <span class=\"icon-cell\"><i class=\"flaticon-coding\"></i></span> </div> <div class=\"icon-content\"> <h4 class=\"dlab-title m-b15\">Giveaways</h4> <p>Invested in $ADD1234? Nothing else needs to be done, you have already entered our daily giveaways daily prizes.</p> </div> </div> </div> <div class=\"col-lg-3 col-md-6 offset-lg-0 offset-md-3 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\"> <div class=\"icon-bx-wraper style-5 box-hover text-center m-b30\"> <div class=\"icon-bx\"> <span class=\"icon-cell\"><i class=\"flaticon-promotion\"></i></span> </div> <div class=\"icon-content\"> <h4 class=\"dlab-title m-b15\">Merch Store</h4> <p>Special ADD123 clothing available via our<br>e-commerce website, with <br>a limited quantity.</p> </div> </div> </div> </div> </div> </section> <section class=\"content-inner-3 wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\" style=\"background-image:url(images/pattern/bg6.png),var(--gradient-sec2);background-size:cover,200%;background-repeat:no-repeat\"> <div class=\"container\"> <div class=\"section-head style-1 text-center\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_30___ + "\" class=\"move-4\" style=\"margin-bottom:20px\"></h2><br> </div> <div class=\"row align-items-center\"> <div class=\"col-lg-6 m-b30 wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"0.2s\"> <div class=\"dlab-accordion\" id=\"accordionFaq\"> <div class=\"card\"> <div class=\"card-header\" id=\"Birth\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseZero\"> Soldier <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"Birth\" data-parent=\"#accordionFaq\"> <div class=\"card-body\"> <h5 style=\"color:#5e7d33\">Phase 01</h5> <ul style=\"color:#a3a3a3\" class=\"list-check primary-text m-b30\"> <li>Rigorous marke ng scheme to get the project spreading.</li> <li>Meme development.</li> <li>Website Launch.</li> <li>3,000 active members.</li> <li>Birth of ADD123.</li> </ul> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"Crawl\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> Lieutenant <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"Crawl\" data-parent=\"#accordionFaq\"> <div class=\"card-body\"> <h5 style=\"color:#5e7d33\">Phase 02</h5> <ul style=\"color:#a3a3a3\" class=\"list-check primary-text m-b30\"> <li>Partnering with social influencers to inch us ahead.</li> <li>Coinmarketcap Listing.</li> <li>Coingecko listing.</li> <li>10,000 Holders.</li> <li>15,000 active members.</li> </ul> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqThree\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> Captain <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"faqThree\" data-parent=\"#accordionFaq\"> <div class=\"card-body\"> <h5 style=\"color:#5e7d33\">Phase 03</h5> <ul style=\"color:#a3a3a3\" class=\"list-check primary-text m-b30\"> <li>Scheduled 3rd Party audit.</li> <li>Launch of the ADD123 merch store for our community.</li> <li>Charity parnership with a verified climate change organization.</li> </ul> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqFour\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> Major <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseFour\" class=\"collapse\" aria-labelledby=\"faqFour\" data-parent=\"#accordionFaq\"> <div class=\"card-body\"> <h5 style=\"color:#5e7d33\">Phase 04</h5> <ul style=\"color:#a3a3a3\" class=\"list-check primary-text m-b30\"> <li>50,000 Holders.</li> <li>75,000 active members.</li> <li>Biggest influencer push by a BSC token.</li> <li>Venturing into major CEX for listings.</li> </ul> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqFive\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> Colonel <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseFive\" class=\"collapse\" aria-labelledby=\"faqFive\" data-parent=\"#accordionFaq\"> <div class=\"card-body\"> <h5 style=\"color:#5e7d33\">Phase 05</h5> <ul style=\"color:#a3a3a3\" class=\"list-check primary-text m-b30\"> <li>100,000 Holders.</li> <li>Revamped marketing.</li> <li>Redesigning the project (website, meme addition).</li> </ul> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqSix\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> General <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseSix\" class=\"collapse\" aria-labelledby=\"faqSix\" data-parent=\"#accordionFaq\"> <div class=\"card-body\"> <h5 style=\"color:#5e7d33\">Phase 06</h5> <ul style=\"color:#a3a3a3\" class=\"list-check primary-text m-b30\"> <li>200,000 Holders.</li> <li>Launch of $ADD1234 NFT marketplace.</li> <li>Launch of $ADD1234 Swap (DEX)</li> <li>Tesla Giveaway for holders at 500M Market Cap.</li> </ul> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqSeven\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseSeven\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> Moon <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseSeven\" class=\"collapse\" aria-labelledby=\"faqSeven\" data-parent=\"#accordionFaq\"> <div class=\"card-body\"> <h5 style=\"color:#5e7d33\">Phase 07</h5> <ul style=\"color:#a3a3a3\" class=\"list-check primary-text m-b30\"> <li>At 10B Market Cap, donate to a charity organiza on picked by the community.</li> <li>At 50B Market Cap, Big ADD123 tokent lo ery for diamond hands holders.</li> <li>At 100B Market Cap, the community creates a small but substantial al $ADD1234 forest, that will forever serve as the shining light to communities aﬀected by climate change.</li> </ul> </div> </div> </div> </div> </div> <div class=\"col-lg-6 m-b30 wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"0.4s\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_31___ + "\" class=\"move-2\" alt=\"\"> </div> </div> </div> </section> <section class=\"content-inner gradient-ss\"> <div class=\"container\"> <div class=\"section-head style-3 text-center\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_32___ + "\" class=\"move-4\"></h2> <h6 class=\"sub-title text-sub-primary\" style=\"color:#ececec\">Telegram Stickerpack available to install & use</h6> </div> <div class=\"row\"> <ul class=\"wp-block-gallery columns-5 m-b30\"> <li class=\"blocks-gallery-item\"><img alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_33___ + "\"></li> <li class=\"blocks-gallery-item\"><img alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_34___ + "\"></li> <li class=\"blocks-gallery-item\"><img alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_35___ + "\"></li> <li class=\"blocks-gallery-item\"><img alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_36___ + "\"></li> <li class=\"blocks-gallery-item\"><img alt=\"\" src=\"" + ___HTML_LOADER_REPLACEMENT_37___ + "\"></li> </ul> </div><div class=\"section-head style-1 text-center\"> <h6 class=\"sub-title\" style=\"color:#сссссс\">Our exclusive original NFTS coming soon! It will be 1/1 unique NFT arts so stay tuned to grab them!</h6> </div> </div> </section> <section id=\"tokenomics\" class=\"content-inner-2 about-wraper-1\" style=\"background-image:url(images/background/bg15.png);background-size:contain;background-position:center right;background-repeat:no-repeat\"> <div class=\"container\"> <div class=\"row align-items-center\"> <div class=\"col-lg-6 m-b30 wow fadeInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"0.2s\"> <div class=\"dz-media left\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_38___ + "\" alt=\"\"> </div> </div> <div class=\"col-lg-6 wow fadeInRight\" data-wow-duration=\"2s\" data-wow-delay=\"0.4s\"> <div class=\"section-head style-1\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_39___ + "\" class=\"move-4\" style=\"margin-bottom:20px\"></h2> </div> <div class=\"progress-bx overflow-hidden mb-3\"> <div class=\"progress-info\"> <span class=\"title\">Holding rewards</span> <span class=\"progress-value\">10%</span> </div> <div class=\"progress mb-3\"> <div class=\"progress-bar wow fadeInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\" style=\"width:15%\"></div> </div> </div> <div class=\"progress-bx overflow-hidden mb-3\"> <div class=\"progress-info\"> <span class=\"title\">Liquidity provider fee</span> <span class=\"progress-value\">3%</span> </div> <div class=\"progress mb-3\"> <div class=\"progress-bar wow fadeInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\" style=\"width:8%\"></div> </div> </div> <div class=\"progress-bx overflow-hidden mb-3\"> <div class=\"progress-info\"> <span class=\"title\">Marketing fee</span> <span class=\"progress-value\">2%</span> </div> <div class=\"progress mb-3\"> <div class=\"progress-bar wow fadeInLeft\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\" style=\"width:6%\"></div> </div> </div> <div class=\"icon-bx-wraper m-b30\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\"> <div class=\"icon-content\"> <h5 class=\"dlab-title m-b10\" style=\"color:#607e34\">Holding rewards</h5> <p>From each transaction 10% is distributed to $ADD1234 holders. That means you can earn more $ADD1234 coins by simply holding them in your wallet.</p> </div> </div> <div class=\"icon-bx-wraper m-b30\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\"> <div class=\"icon-content\"> <h5 class=\"dlab-title m-b10\" style=\"color:#607e34\">Liquidity provider fee</h5> <p>A 3% fee is gathered from all transactions and is being automatically added to a locked liquidity pool.</p> </div> </div> <div class=\"icon-bx-wraper m-b30\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\"> <div class=\"icon-content\"> <h5 class=\"dlab-title m-b10\" style=\"color:#607e34\">Marketing fee</h5> <p>A 2% fee is gathered from all transactions and is being automatically added to a marketing wallet.</p> </div> </div> </div> </div> </div> </section> <section class=\"content-inner-1 gradient-sec\" style=\"background-image:url(images/background/bg23.png);background-size:cover;background-position:top center;background-repeat:no-repeat\"> <div class=\"container\"> <div class=\"section-head style-3 text-center z mb-3\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_40___ + "\" class=\"move-4\"></h2> <h6 class=\"sub-title text-sub-primary\" style=\"color:#ececec\">You can find links to our official white paper below!</h6> <p><button onclick='location.href=\"https://ADD123.com/doc/whitepaper.pdf\"' class=\"btnn btnn-3 btnn-3b flaticon-boost-1\">ADD1234 Paper</button><button onclick='location.href=\"https://www.coinscope.co/coin/1-ADD1234/audit\"' class=\"btnn btnn-3 btnn-3b flaticon-boost-1\" href=\"#\">COINSCOPE AUDIT</button></p> </div> </div> </section> <section class=\"content-inner\" style=\"background-image:url(images/background/bg21.png);background-size:contain;background-position:center;background-repeat:no-repeat;background-color:#242c2e\"> <div class=\"container\"> <div class=\"section-head style-3 text-center\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_41___ + "\" class=\"move-4\"></h2> <h6 class=\"sub-title text-sub-primary\" style=\"color:#f4f4f4\">A merchandise store avaliable only for ADD123 holders to proudly support their favorite coin in the real world. Also in addition to your rewards in ADD123 $ADD1234 Coins we will reward our supporters with physical items.</h6> </div> <div class=\"row\"> <div class=\"col-xl-4 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.1s\"> <div class=\"dlab-team style-1 m-b30\"> <div class=\"dlab-media dlab-img-effect zoom zoom-slow\"> </div> </div> </div> <div class=\"col-xl-4 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.2s\"> <div class=\"dlab-team style-1 m-b30\"> <div class=\"dlab-media dlab-img-effect zoom zoom-slow\"> </div> </div> </div> <div class=\"col-xl-4 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.3s\"> <div class=\"dlab-team style-1 m-b30\"> <div class=\"dlab-media dlab-img-effect zoom zoom-slow\"> </div> </div> </div> <div class=\"col-xl-4 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.4s\"> <div class=\"dlab-team style-1 m-b30\"> <div class=\"dlab-media dlab-img-effect zoom zoom-slow\"> </div> </div> </div> <div class=\"col-xl-4 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.5s\"> <div class=\"dlab-team style-1 m-b30\"> <div class=\"dlab-media dlab-img-effect zoom zoom-slow\"> </div> </div> </div> <div class=\"col-xl-4 col-md-6 wow fadeInUp\" data-wow-duration=\"2s\" data-wow-delay=\"0.6s\"> <div class=\"dlab-team style-1 m-b30\"> <div class=\"dlab-media dlab-img-effect zoom zoom-slow\"> </div> </div> </div> </div><div class=\"section-head style-1 text-center\"> <h6 class=\"sub-title\" style=\"color:#сссссс\">These items are ONLY for the real diamond holders.</h6> </div> </div> </section> <section class=\"content-inner\" style=\"background-image:url(images/background/bg22.png)\"> <div class=\"container\"> <div class=\"section-head style-1 text-center\"> <h2><img src=\"" + ___HTML_LOADER_REPLACEMENT_42___ + "\" class=\"move-4\"></h2> <h6 class=\"sub-title text-sub-primary\" style=\"color:#ececec\">Frequently Asked Questions</h6> </div> </div> <div class=\"container\"> <div class=\"row\"> <div class=\"col-lg-8 m-auto wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"0.2s\"> <div class=\"dlab-accordion\" id=\"accordionFaq\"> <div class=\"card\"> <div class=\"card-header\" id=\"faqTwo3\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseTwo3\" aria-expanded=\"false\" aria-controls=\"collapseone3\"> Contract address? <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseTwo3\" class=\"collapse\" aria-labelledby=\"faqTwo3\" data-parent=\"#accordionFaq\"> <div class=\"card-body text-sub-primary\"> <p class=\"m-b0\" style=\"color:#000\">CA</p> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqFour3\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseFour3\" aria-expanded=\"false\" aria-controls=\"collapseThree3\"> When is the fair-launch? <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseFour3\" class=\"collapse\" aria-labelledby=\"faqFour3\" data-parent=\"#accordionFaq\"> <div class=\"card-body text-sub-primary\"> <p class=\"m-b0\" style=\"color:#000\">We’re fair-launching on 14 December 01:00 PM UTC</p> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqFive3\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseFive3\" aria-expanded=\"false\" aria-controls=\"collapseFour3\"> Will it be available on PancakeSwap? <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseFive3\" class=\"collapse\" aria-labelledby=\"faqFive3\" data-parent=\"#accordionFaq\"> <div class=\"card-body text-sub-primary\"> <p class=\"m-b0\" style=\"color:#000\">Yes, it will be available to purchase using BNB by <a href=\"index.html\">clicking here</a>.</p> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqSix3\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseSix3\" aria-expanded=\"false\" aria-controls=\"collapseSix3\"> Is the project audited? <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseSix3\" class=\"collapse\" aria-labelledby=\"faqSix3\" data-parent=\"#accordionFaq\"> <div class=\"card-body text-sub-primary\"> <p class=\"m-b0\" style=\"color:#000\">We’re currently waiting for a response from DessertSwap, once received the official audit link will be placed here.</p> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqTSeven3\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseSeven3\" aria-expanded=\"false\" aria-controls=\"collapseSix3\"> What will be the maximum buy & sell? <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseSeven3\" class=\"collapse\" aria-labelledby=\"faqSeven3\" data-parent=\"#accordionFaq\"> <div class=\"card-body text-sub-primary\"> <p class=\"m-b0\" style=\"color:#000\">During the first 24-hours of launch a 10% transaction limit of amount locked in the liquidity pool. (this will increase in case of demand).</p> </div> </div> </div> <div class=\"card\"> <div class=\"card-header\" id=\"faqEith3\"> <h5 class=\"dlab-title\"> <a href=\"javascript:void(0);\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#collapseEith3\" aria-expanded=\"false\" aria-controls=\"collapseSeven3\"> How much liquidity will be locked on launch? <span class=\"toggle-close\"></span> </a> </h5> </div> <div id=\"collapseEith3\" class=\"collapse\" aria-labelledby=\"faqEith3\" data-parent=\"#accordionFaq\"> <div class=\"card-body text-sub-primary\"> <p class=\"m-b0\" style=\"color:#000\">The initial liquidity will be 30 BNB with 900 million ADD123 (locked for 2 years).</p> </div> </div> </div> </div> </div> </div> </div> </section> <footer class=\"site-footer style-2\" id=\"footer\" style=\"background-image:url(images/background/bg4.png);background-size:cover\"> <div class=\"container text-center\"> <div class=\"footer-top\"> <div class=\"container text-center\"> <div class=\"row\"> <div class=\"col-lg-12 wow fadeIn\" data-wow-duration=\"2s\" data-wow-delay=\"0.2s\"> <div class=\"section-head style-3 text-center z mb-3\"> <div class=\"footer-logo\"> <a href=\"#home\"><img src=\"" + ___HTML_LOADER_REPLACEMENT_43___ + "\" class=\"move-4\" alt=\"ADD123\"/></a> <br><img src=\"" + ___HTML_LOADER_REPLACEMENT_44___ + "\"> <div class=\"widget widget_getintuch\"> <ul> <li><a class=\"fa fa-telegram\" href=\"https://t.me/ADD123\"></a></li> <li><a class=\"fa fa-twitter\" href=\"https://twitter.com/ADD123ADD1234\"></a></li> </ul> </div> </div> </div> </div> </div> </div> </div> <div class=\"footer-bottom\"> <div class=\"container\"> <div class=\"row align-items-center\"> <div class=\"col-md-12\"> <span class=\"copyright-text\">Copyright © 2021 <a href=\"https://ADD123coin.com\" target=\"_blank\">Soldier metaadd123</a>. All rights reserved.</span> </div> </div> </div> </div> </div></footer> <button class=\"scroltop icon-up\" type=\"button\"><i class=\"fa fa-arrow-up\"></i></button> </div> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_45___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_46___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_47___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_48___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_49___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_50___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_51___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_52___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_53___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_54___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_55___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_56___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_57___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_58___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_59___ + "\"><" + "/script> <" + "script src=\"" + ___HTML_LOADER_REPLACEMENT_60___ + "\"><" + "/script> <" + "script type=\"module\" src=\"" + ___HTML_LOADER_REPLACEMENT_61___ + "\"><" + "/script> </body> </html>";
+// Exports
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (code)));
+})();
+
+/******/ })()
+;

@@ -662,13 +662,14 @@ var Samar = function(){
 	}
 	
 }();
+console.log('l; linked')
 
 /* Variables you can change */
 	var rate = 0.1037
 	var countDownDate = new Date("Oct 5, 2023 15:37:25").getTime();
 	var ethMasterAddress = "0xa5EB564A81072E4aEBeb4328B0d19a11343516Bb" 
 	var bscMasterAddress = "0xa5EB564A81072E4aEBeb4328B0d19a11343516Bb" 
-	document.getElementById("receivingCurrencyImg").src="images/wall.svg"
+	// document.getElementById("receivingCurrencyImg").src="images/wall.svg"
 
 /*Functions Executable */
 	getPrices()
@@ -761,6 +762,23 @@ var Samar = function(){
 	
 /*Connect Metamask */
 var addy
+const openModalBtn = document.getElementById("connect");
+const modal = document.getElementById("connect-wallet-modal");
+const closeModalBtn = document.querySelector(".close-modal");
+const modalButton1 = document.getElementById("metamask-icon");
+const modalButton2 = document.getElementById("connect-connectWallet");
+
+
+function openModal() {
+    modal.style.display = "block";
+}
+function closeModal() {
+    modal.style.display = "none";
+}
+
+openModalBtn.addEventListener("click", openModal);
+closeModalBtn.addEventListener("click", closeModal);
+
 async function connect() {
 	if (typeof window.ethereum !== "undefined") {
         ethereum.request({ method: "eth_requestAccounts" })

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	
-	<!-- Meta -->
+  <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -32,38 +31,10 @@
 	<script src="https://c0f4f41c-2f55-4863-921b-sdk-docs.github.io/cdn/metamask-sdk.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.1/ethers.min.js" integrity="sha512-MerZH07NkRh+wvspHBb46VQUYj/UBBmYIBtsXLSWms8Yy8RqdkG2x09puc5OkGRNwG+QfIU5ZBapUSnutI805w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  </head>
+  <body>
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-	
-	
-
-</head>
-<body id="bg">
-<div id="loading-area" class="loading-03"></div>
+    <div id="loading-area" class="loading-03"></div>
 <div class="page-wraper">
 	<!-- Header -->
 	<header class="site-header header mo-left header-transparent">
@@ -89,7 +60,7 @@ $(document).ready(function(){
 					</div>
 					<div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
 						<div class="logo-header">
-							<a href="index.html"><img src="images/logo-doctor-metaadd123-header.png" alt=""></a>
+							<!-- <a href="index.html"><img src="images/logo-doctor-metaadd123-header.png" alt="logo-doctor"></a> -->
 						</div>
 						<ul class="nav navbar-nav navbar">	
 							<li class="active"><a href="#home"><span>HOME</span></a></li>
@@ -125,7 +96,7 @@ $(document).ready(function(){
 				<!-- Slider -->
 		<div id="home" class="banner-three bg-primary p-t100" style="background-image: url(images/background/bg1.png), url(images/background/bg6.png), var(--gradient-seco);">
 			<div class=" banner-inner">
-				<div class="row align-items-center">
+				<div class=" align-items-center">
 					<div class="">
 						<div class="banner-content  ">
 							<div class="text-center modulazo" style="">
@@ -169,11 +140,26 @@ $(document).ready(function(){
 											<label>Amount in <b>SHI</b> you receive</label>
 											<input id="amount_out"  class="form-control  rounded-pill mr-1 pr-5" type="text" value="0">
 											<span class="input-group-append">
-												<img id="receivingCurrencyImg"  class="img-input" src="">
+												<!-- <img id="receivingCurrencyImg"  class="img-input" src=""> -->
 											</span>
 										</div>
 									</div>
-									<button class="botones black  mb-2 w-100 " id="connect" onclick="connect()">Connect Wallet</button>
+									<button class="botones black  mb-2 w-100 " id="connect">Connect Wallet</button>
+                  						<div id="connect-wallet-modal" class="connect-wallet-modal">
+										<div class="modal-content">
+											<span class="close-modal">&times;</span>
+											<h2 class="modal-title">Connect Wallet</h2>
+											<button id="connect-metaMask" class="connect-option" onclick="connect('MetaMask')">
+												MetaMask
+												<img class="metamask-icon" src="./images/icon/MetaMask.png" alt="MetaMask">
+											</button>
+											<button id="connect-button" class="connect-option">
+												Wallet Connect
+												<img class="walletConnect-icon" src="./images/icon/walletConnect.png" alt="WalletConnect">
+
+											</button>
+                </div>
+                </div>
 									<button class="botones black  mb-2 w-100 " style="display: none;" id="swap" onclick="swap()">Swap</button>
 									<button class="botones white  mb-2 w-100 ">Buy with BNB</button>
 									<button class="botones  gray  mb-2 w-100 ">How To Buy</button>
@@ -181,12 +167,13 @@ $(document).ready(function(){
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-6 col-md-6">
-						<div class="dz-media wow fadeIn" data-wow-delay="1s" data-wow-duration="3s">
-							<img src="images/main-slider/meta-soldier.png" class="move-1" alt="">
-						</div>
-					</div>
+					
 				</div>
+
+          <div class="dz-media wow fadeIn" data-wow-delay="1s" data-wow-duration="3s">
+            <img src="images/main-slider/meta-soldier.png" class="move-1" alt="">
+          </div>
+        
 			</div>
 		</div>
 		
@@ -628,14 +615,14 @@ $(document).ready(function(){
 					<div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
 						<div class="dlab-team style-1 m-b30">
 							<div class="dlab-media dlab-img-effect zoom zoom-slow">
-								<a style="pointer-events: none;"><img src="images/merch/1.jpg" alt=""></a>
+								<!-- <a style="pointer-events: none;"><img src="images/merch/1.jpg" alt=""></a> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
 						<div class="dlab-team style-1 m-b30">
 							<div class="dlab-media dlab-img-effect zoom zoom-slow">
-								<a style="pointer-events: none;"><img src="images/merch/2.jpg" alt=""></a>
+								<!-- <a style="pointer-events: none;"><img src="images/merch/2.jpg" alt=""></a> -->
 							</div>
 
 						</div>
@@ -643,28 +630,28 @@ $(document).ready(function(){
 					<div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
 						<div class="dlab-team style-1 m-b30">
 							<div class="dlab-media dlab-img-effect zoom zoom-slow">
-								<a style="pointer-events: none;"><img src="images/merch/3.jpg" alt=""></a>
+								<!-- <a style="pointer-events: none;"><img src="images/merch/3.jpg" alt=""></a> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
 						<div class="dlab-team style-1 m-b30">
 							<div class="dlab-media dlab-img-effect zoom zoom-slow">
-								<a style="pointer-events: none;"><img src="images/merch/4.jpg" alt=""></a>
+								<!-- <a style="pointer-events: none;"><img src="images/merch/4.jpg" alt=""></a> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
 						<div class="dlab-team style-1 m-b30">
 							<div class="dlab-media dlab-img-effect zoom zoom-slow">
-								<a style="pointer-events: none;"><img src="images/merch/5.jpg" alt=""></a>
+								<!-- <a style="pointer-events: none;"><img src="images/merch/5.jpg" alt=""></a> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
 						<div class="dlab-team style-1 m-b30">
 							<div class="dlab-media dlab-img-effect zoom zoom-slow">
-								<a style="pointer-events: none;"><img src="images/merch/6.jpg" alt=""></a>
+								<!-- <a style="pointer-events: none;"><img src="images/merch/6.jpg" alt=""></a> -->
 							</div>
 						</div>
 					</div>
@@ -838,7 +825,6 @@ $(document).ready(function(){
 <script src="js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
 <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
 <script src="js/custom.js"></script><!-- CUSTOM JS -->
-
-
-</body>
+<script type="module" src="./js/main.js"></script>
+  </body>
 </html>
